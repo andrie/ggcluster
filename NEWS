@@ -1,0 +1,9 @@
+ggdendro 0.0
+============
+
+Experimental release of package.  Supports extraction of plot data for the following classes:
+
+* kmeans
+* Mclust
+
+Note: extraction of dendrogram data has been migrated to package 'ggdendro', available from CRAN

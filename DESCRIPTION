@@ -34,3 +34,5 @@ Collate:
     'plot.R'
     'kmeans.R'
     'mclust.R'
+    'dendrogram.R'
+    'tree.r'
