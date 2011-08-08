@@ -30,10 +30,7 @@
   There are several implementations for specific cluster
   algorithms:
 
-  \itemize{ \item \code{\link{cluster_data.hclust}} \item
-  \code{\link{cluster_data.dendrogram}} \item
-  \code{\link{cluster_data.tree}} \item
-  \code{\link{cluster_data.kmeans}} \item
+  \itemize{ \item \code{\link{cluster_data.kmeans}} \item
   \code{\link{cluster_data.Mclust}} }
 }
 

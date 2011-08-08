@@ -3,8 +3,8 @@
 \title{Create principal components analysis plot.}
 \usage{
   plot_pca( data, labeltext = names(data), xLabel =
-  "Principal component 1", yLabel = "Principal component 2",
-  pca_function = princomp, labels_at_edge = TRUE,
+  "Principal component 1", yLabel = "Principal component
+  2", pca_function = princomp, labels_at_edge = TRUE,
   explode = 1.1, textsize = 3)
 }
 \arguments{

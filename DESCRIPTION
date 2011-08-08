@@ -2,8 +2,7 @@ Package: ggcluster
 Maintainer: Andrie de Vries
     <andrie.de.vries@pentalibra.com>
 License: GPL (>=2)
-Title: Tools for creating cluster plots, tree plots and
-    dendrograms using ggplot.
+Title: Tools for creating cluster plots using ggplot.
 LazyData: true
 LazyLoad: true
 Author: Andrie de Vries <andrie.de.vries@pentalibra.com>
@@ -16,25 +15,22 @@ Description: Most of the cluster in the R packages
     segment as well as data labels available in data frame
     format. This data can then be manipulated or passed to
     ggplot() for plotting. The package supports data
-    extraction for hclust, dendrogram, tree, kmeans and
-    Mclust.
-Version: 0.0-17
+    extraction for kmeans and Mclust.
+Version: 0.0-18
 URL: www.pentalibra.com
-Date: 2011-07-25
+Date: 2011-08-07
 Depends:
     stats,
-    cluster
+    cluster,
+    plyr
 Suggests:
     tree,
     mclust,
-    plyr,
     ggplot2
 Collate:
     'cluster_data.R'
-    'dendrogram.R'
     'ggcluster-package.R'
     'pca.R'
     'plot.R'
-    'tree.r'
     'kmeans.R'
     'mclust.R'

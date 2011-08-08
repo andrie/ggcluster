@@ -14,9 +14,6 @@
 #' \code{\link{cluster_data}} extracts data from several cluster algorithms.  It is a generic function with specific implementations for:
 #' 
 #' \itemize{
-#' \item hclust: \code{\link{cluster_data.hclust}} 
-#' \item dendrogram: \code{\link{cluster_data.dendrogram}} 
-#' \item tree: \code{\link{cluster_data.tree}} 
 #' \item kmeans: \code{\link{cluster_data.kmeans}} 
 #' \item Mclust: \code{\link{cluster_data.Mclust}} 
 #' }
@@ -26,9 +23,8 @@
 #' @name ggcluster-package
 #' @aliases ggcluster
 #' @docType package
-#' @title Tools for creating cluster plots, tree plots and dendrograms using ggplot in [R]
+#' @title Tools for creating cluster plots using ggplot in [R]
 #' @author Andrie de Vries \email{andrie.de.vries@@pentalibra.com}
-#' @li
 #' @keywords package
 #' @seealso \code{\link{cluster_data}}
 NULL
